@@ -306,7 +306,7 @@ a { text-decoration: none; color: inherit; }
 }
 .hero-title em {
   font-style: italic;
-  color: var(--sage-blue);
+  color: var(--sage-super-light);
 }
 .hero-sub {
   color: rgba(255,255,255,.8);
