@@ -297,8 +297,8 @@ a { text-decoration: none; color: inherit; }
 .hero-title {
   font-family: var(--ff-display);
   font-size: clamp(2.8rem, 6vw, 5rem);
-  font-weight: 300;
-  line-height: 1.1;
+  font-weight: 500;
+  line-height: 0.8;
   color: var(--white);
   margin-bottom: 1.5rem;
 }
