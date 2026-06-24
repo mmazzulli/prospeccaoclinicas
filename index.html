@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serenità — Clínica de Saúde & Bem-Estar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="logo">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">Serenità</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#sobre">Quem Somos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#abordagem">Abordagem</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#agenda">Agendar</a>
+      </nav>
+      <a href="#agenda" class="nav-cta">Marcar Consulta</a>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#sobre">Quem Somos</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#abordagem">Abordagem</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#agenda">Agendar</a>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       1. HERO
+  ============================================================ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img
+        src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=1800&auto=format&fit=crop&q=80"
+        alt="Ambiente sereno de bem-estar"
+        class="hero-img"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-up">Saúde · Bem-Estar · Equilíbrio</p>
+      <h1 class="hero-title reveal-up delay-1">
+        O seu caminho<br />
+        <em>para o equilíbrio</em><br />
+        começa aqui.
+      </h1>
+      <p class="hero-sub reveal-up delay-2">
+        Cuidamos de você com uma abordagem integrativa que une ciência, natureza e atenção genuína ao seu ser.
+      </p>
+      <div class="hero-actions reveal-up delay-3">
+        <a href="#agenda" class="btn-primary">Agendar Consulta</a>
+        <a href="#sobre" class="btn-ghost">Conheça a Clínica</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span class="scroll-line"></span>
+      <span class="scroll-label">Role para baixo</span>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       2. QUEM SOMOS
+  ============================================================ -->
+  <section class="sobre" id="sobre">
+    <div class="container sobre-grid">
+      <div class="sobre-img-wrap scroll-reveal">
+        <img
+          src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&auto=format&fit=crop&q=80"
+          alt="Equipa clínica Serenità"
+          class="sobre-img"
+        />
+        <div class="sobre-badge">
+          <span class="badge-num">12+</span>
+          <span class="badge-text">anos de cuidado</span>
+        </div>
+      </div>
+      <div class="sobre-text scroll-reveal delay-1">
+        <p class="section-eyebrow">Quem Somos</p>
+        <h2 class="section-title">Saúde é equilíbrio entre corpo, mente e espírito.</h2>
+        <p class="body-text">
+          Na Serenità, acreditamos que a verdadeira saúde vai além da ausência de doença. Somos uma equipa multidisciplinar de profissionais dedicados a oferecer cuidados integrativos e personalizados, num ambiente de acolhimento, respeito e escuta ativa.
+        </p>
+        <p class="body-text">
+          Fundada em 2012, a nossa clínica une práticas da medicina convencional com terapias complementares comprovadas, criando planos de cuidado únicos para cada pessoa que cruza a nossa porta.
+        </p>
+        <ul class="sobre-list">
+          <li>✦ Equipa multidisciplinar certificada</li>
+          <li>✦ Abordagem integrativa e humanizada</li>
+          <li>✦ Ambiente pensado para o seu conforto</li>
+          <li>✦ Planos de cuidado totalmente personalizados</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       3. SERVIÇOS — scroll animation
+  ============================================================ -->
+  <section class="servicos" id="servicos">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <p class="section-eyebrow light">Serviços</p>
+        <h2 class="section-title light">Cuidados que transformam.<br />Resultados que permanecem.</h2>
+      </div>
+      <div class="servicos-grid">
+        <div class="servico-card scroll-stagger" data-index="0">
+          <div class="servico-icon">🌿</div>
+          <h3>Medicina Integrativa</h3>
+          <p>Diagnóstico completo aliando medicina convencional e práticas holísticas para um cuidado profundo e duradouro.</p>
+          <a href="#agenda" class="card-link">Saber mais →</a>
+        </div>
+        <div class="servico-card scroll-stagger" data-index="1">
+          <div class="servico-icon">🧘</div>
+          <h3>Terapias Holísticas</h3>
+          <p>Acupuntura, Reiki, Aromaterapia e Yoga Terapêutico para restabelecer o equilíbrio energético e emocional.</p>
+          <a href="#agenda" class="card-link">Saber mais →</a>
+        </div>
+        <div class="servico-card scroll-stagger" data-index="2">
+          <div class="servico-icon">💆</div>
+          <h3>Psicologia & Mindfulness</h3>
+          <p>Acompanhamento psicológico e programas de mindfulness para saúde mental, gestão de stress e autoconhecimento.</p>
+          <a href="#agenda" class="card-link">Saber mais →</a>
+        </div>
+        <div class="servico-card scroll-stagger" data-index="3">
+          <div class="servico-icon">🥗</div>
+          <h3>Nutrição Funcional</h3>
+          <p>Avaliação e planos alimentares personalizados que respeitam a sua bioquímica individual e objetivos de saúde.</p>
+          <a href="#agenda" class="card-link">Saber mais →</a>
+        </div>
+        <div class="servico-card scroll-stagger" data-index="4">
+          <div class="servico-icon">💧</div>
+          <h3>Spa Terapêutico</h3>
+          <p>Rituais de relaxamento profundo com técnicas de hidroterapia, massagens especializadas e banhos de imersão.</p>
+          <a href="#agenda" class="card-link">Saber mais →</a>
+        </div>
+        <div class="servico-card scroll-stagger" data-index="5">
+          <div class="servico-icon">🌸</div>
+          <h3>Estética Consciente</h3>
+          <p>Tratamentos estéticos com enfoque no bem-estar interno e externo, utilizando produtos naturais e orgânicos.</p>
+          <a href="#agenda" class="card-link">Saber mais →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       4. ABORDAGEM / COMO TRABALHAMOS
+  ============================================================ -->
+  <section class="abordagem" id="abordagem">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <p class="section-eyebrow">Nossa Abordagem</p>
+        <h2 class="section-title">Um processo pensado<br />ao detalhe para si.</h2>
+      </div>
+      <div class="steps-wrap">
+        <div class="step scroll-reveal">
+          <div class="step-num">01</div>
+          <div class="step-content">
+            <h3>Escuta & Diagnóstico</h3>
+            <p>Começamos por ouvir. Uma consulta de avaliação completa para compreender o seu histórico, estilo de vida e objetivos de forma holística.</p>
+          </div>
+        </div>
+        <div class="step scroll-reveal delay-1">
+          <div class="step-num">02</div>
+          <div class="step-content">
+            <h3>Plano Personalizado</h3>
+            <p>Desenhamos um plano de cuidado único para si, integrando as terapias e especialidades mais adequadas ao seu momento de vida.</p>
+          </div>
+        </div>
+        <div class="step scroll-reveal delay-2">
+          <div class="step-num">03</div>
+          <div class="step-content">
+            <h3>Acompanhamento Contínuo</h3>
+            <p>Monitoramos a sua evolução de perto, ajustando o plano sempre que necessário para garantir resultados reais e sustentáveis.</p>
+          </div>
+        </div>
+        <div class="step scroll-reveal delay-3">
+          <div class="step-num">04</div>
+          <div class="step-content">
+            <h3>Equilíbrio Duradouro</h3>
+            <p>O nosso objetivo é que você adquira ferramentas e hábitos que sustentem o seu bem-estar muito além das consultas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       5. GALERIA / ESPAÇO — scroll marquee
+  ============================================================ -->
+  <section class="galeria" id="galeria">
+    <div class="section-header scroll-reveal" style="text-align:center; margin-bottom: 2.5rem; padding: 0 1.5rem;">
+      <p class="section-eyebrow">Nosso Espaço</p>
+      <h2 class="section-title">Um ambiente criado<br />para a sua paz interior.</h2>
+    </div>
+    <div class="marquee-track">
+      <div class="marquee-inner" id="marqueeInner">
+        <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80" alt="Sala de terapia" />
+        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&auto=format&fit=crop&q=80" alt="Espaço de meditação" />
+        <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=600&auto=format&fit=crop&q=80" alt="Sala de massagem" />
+        <img src="https://images.unsplash.com/photo-1591343395082-e120087004b4?w=600&auto=format&fit=crop&q=80" alt="Receção acolhedora" />
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&auto=format&fit=crop&q=80" alt="Jardim zen" />
+        <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=600&auto=format&fit=crop&q=80" alt="Sala de consultas" />
+        <!-- duplicated for seamless loop -->
+        <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop&q=80" alt="Sala de terapia" />
+        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&auto=format&fit=crop&q=80" alt="Espaço de meditação" />
+        <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=600&auto=format&fit=crop&q=80" alt="Sala de massagem" />
+        <img src="https://images.unsplash.com/photo-1591343395082-e120087004b4?w=600&auto=format&fit=crop&q=80" alt="Receção acolhedora" />
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&auto=format&fit=crop&q=80" alt="Jardim zen" />
+        <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=600&auto=format&fit=crop&q=80" alt="Sala de consultas" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       6. DEPOIMENTOS — fade carousel
+  ============================================================ -->
+  <section class="depoimentos" id="depoimentos">
+    <div class="container">
+      <div class="section-header scroll-reveal" style="text-align:center">
+        <p class="section-eyebrow">Depoimentos</p>
+        <h2 class="section-title">O que dizem quem<br />já transformou a sua saúde.</h2>
+      </div>
+      <div class="testimonial-wrap">
+        <div class="testimonial active" data-index="0">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">
+            A Serenità mudou completamente a minha relação com a saúde. Depois de anos lutando contra ansiedade crónica, finalmente encontrei equilíbrio através da abordagem integrativa da equipa. Nunca me senti tão bem.
+          </p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80" alt="Carla Mendes" />
+            <div>
+              <strong>Carla Mendes</strong>
+              <span>Empresária, 38 anos</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial" data-index="1">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">
+            Vim para tratar dores crónicas nas costas e fui apresentado a um universo de cuidado que nem sabia que existia. A nutrição funcional aliada à fisioterapia e ao Reiki fez uma diferença que médicos convencionais não conseguiram em 5 anos.
+          </p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80" alt="Ricardo Alves" />
+            <div>
+              <strong>Ricardo Alves</strong>
+              <span>Professor, 45 anos</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial" data-index="2">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">
+            O ambiente da clínica por si só já é terapêutico. Cada visita é uma pausa genuína na correria do dia a dia. A atenção personalizada que recebi durante a gravidez foi um presente inesquecível.
+          </p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=100&auto=format&fit=crop&q=80" alt="Sofia Rodrigues" />
+            <div>
+              <strong>Sofia Rodrigues</strong>
+              <span>Designer, 31 anos</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-dots">
+          <button class="dot active" data-t="0"></button>
+          <button class="dot" data-t="1"></button>
+          <button class="dot" data-t="2"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       7. NÚMEROS / STATS
+  ============================================================ -->
+  <section class="stats" id="stats">
+    <div class="container stats-grid">
+      <div class="stat-item scroll-reveal">
+        <span class="stat-num" data-target="2400">0</span><span class="stat-plus">+</span>
+        <p class="stat-label">Pacientes acompanhados</p>
+      </div>
+      <div class="stat-item scroll-reveal delay-1">
+        <span class="stat-num" data-target="12">0</span><span class="stat-plus">+</span>
+        <p class="stat-label">Anos de experiência</p>
+      </div>
+      <div class="stat-item scroll-reveal delay-2">
+        <span class="stat-num" data-target="18">0</span>
+        <p class="stat-label">Especialidades integradas</p>
+      </div>
+      <div class="stat-item scroll-reveal delay-3">
+        <span class="stat-num" data-target="98">0</span><span class="stat-plus">%</span>
+        <p class="stat-label">Satisfação dos pacientes</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       8. AGENDAR / CTA
+  ============================================================ -->
+  <section class="agenda" id="agenda">
+    <div class="agenda-bg">
+      <img
+        src="https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=1600&auto=format&fit=crop&q=80"
+        alt="Ambiente tranquilo"
+        class="agenda-img"
+      />
+      <div class="agenda-overlay"></div>
+    </div>
+    <div class="container agenda-content scroll-reveal">
+      <p class="section-eyebrow light">Próximo Passo</p>
+      <h2 class="section-title light">O seu bem-estar<br />começa com uma escolha.</h2>
+      <p class="agenda-sub">Agende a sua consulta de avaliação e dê o primeiro passo para uma vida com mais equilíbrio, saúde e presença.</p>
+      <div class="agenda-form">
+        <input type="text" placeholder="O seu nome" />
+        <input type="email" placeholder="O seu e-mail" />
+        <input type="tel" placeholder="Telefone / WhatsApp" />
+        <select>
+          <option value="">Serviço de interesse</option>
+          <option>Medicina Integrativa</option>
+          <option>Terapias Holísticas</option>
+          <option>Psicologia & Mindfulness</option>
+          <option>Nutrição Funcional</option>
+          <option>Spa Terapêutico</option>
+          <option>Estética Consciente</option>
+        </select>
+        <button type="button" class="btn-primary full">Solicitar Agendamento</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#hero" class="logo footer-logo">
+          <span class="logo-icon">✦</span>
+          <span class="logo-text">Serenità</span>
+        </a>
+        <p class="footer-tagline">Cuidado integrativo para uma vida em equilíbrio.</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Instagram" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="Facebook" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="WhatsApp" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Navegação</h4>
+        <a href="#sobre">Quem Somos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#abordagem">Abordagem</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#agenda">Agendar</a>
+      </div>
+      <div class="footer-links">
+        <h4>Contato</h4>
+        <a href="mailto:ola@serenita.pt">ola@serenita.pt</a>
+        <a href="tel:+351910000000">+351 910 000 000</a>
+        <p style="margin-top:.5rem;color:var(--sage)">Rua do Bem-Estar, 24<br/>1200-001 Lisboa, Portugal</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Serenità. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
