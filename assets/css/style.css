@@ -14,6 +14,7 @@
   --stone:       #8C8277;
   --dark:        #2C2A27;
   --white:       #FFFFFF;
+  --sage-blue:   #08523d;
 
   --ff-display:  'Cormorant Garamond', Georgia, serif;
   --ff-body:     'DM Sans', system-ui, sans-serif;
@@ -291,7 +292,7 @@ a { text-decoration: none; color: inherit; }
   font-weight: 500;
   letter-spacing: .2em;
   text-transform: uppercase;
-  color: var(--sage-light);
+  color: var(--sage-blue);
   margin-bottom: 1.25rem;
 }
 .hero-title {
